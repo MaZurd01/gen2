@@ -10,7 +10,7 @@ client.on('message', message => {
    
     let command = message.content.split(" ")[0];
      let args = message.content.split(" ").slice(1);
-   if (command == "$say1") {
+   if (command == "$say5") {
    message.channel.send(args.join("  "))
      }
    });
@@ -19,7 +19,7 @@ client.on('message', message => {
    
     let command = message.content.split(" ")[0];
      let args = message.content.split(" ").slice(1);
-   if (command == "$say2") {
+   if (command == "$say6") {
    message.channel.send(args.join("  "))
      }
    });
@@ -28,7 +28,7 @@ client.on('message', message => {
    
     let command = message.content.split(" ")[0];
      let args = message.content.split(" ").slice(1);
-   if (command == "$say3") {
+   if (command == "$say7") {
    message.channel.send(args.join("  "))
      }
    });
@@ -38,7 +38,7 @@ client.on('message', message => {
    
     let command = message.content.split(" ")[0];
      let args = message.content.split(" ").slice(1);
-   if (command == "$say4") {
+   if (command == "$say8") {
    message.channel.send(args.join("  "))
      }
    });
