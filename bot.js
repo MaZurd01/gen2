@@ -47,8 +47,8 @@ client.on('message', message => {
 
    let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-  if(!args) return message.channel.send(`say1 <words>`);
-if (command == "say1") {
+  if(!args) return message.channel.send(`say5 <words>`);
+if (command == "say5") {
 message.channel.send(args.join("  "))
    
   }
@@ -60,8 +60,8 @@ client2.on('message', message => {
 
    let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-  if(!args) return message.channel.send(`say2 <words>`);
-if (command == "say2") {
+  if(!args) return message.channel.send(`say6 <words>`);
+if (command == "say6") {
 message.channel.send(args.join("  "))
    
   }
@@ -73,8 +73,8 @@ client3.on('message', message => {
 
    let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-  if(!args) return message.channel.send(`say3 <words>`);
-if (command == "say3") {
+  if(!args) return message.channel.send(`say7 <words>`);
+if (command == "say7") {
 message.channel.send(args.join("  "))
    
   }
@@ -85,8 +85,8 @@ client4.on('message', message => {
 
    let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-  if(!args) return message.channel.send(`say4 <words>`);
-if (command == "say4") {
+  if(!args) return message.channel.send(`say8 <words>`);
+if (command == "say8") {
 message.channel.send(args.join("  "))
    
   }
