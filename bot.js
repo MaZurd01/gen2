@@ -6,6 +6,43 @@ const client4 = new Discord.Client();
 
 
 
+client.on('message', message => {
+   
+    let command = message.content.split(" ")[0];
+     let args = message.content.split(" ").slice(1);
+   if (command == "$say1") {
+   message.channel.send(args.join("  "))
+     }
+   });
+
+   client2.on('message', message => {
+   
+    let command = message.content.split(" ")[0];
+     let args = message.content.split(" ").slice(1);
+   if (command == "$say2") {
+   message.channel.send(args.join("  "))
+     }
+   });
+
+   client3.on('message', message => {
+   
+    let command = message.content.split(" ")[0];
+     let args = message.content.split(" ").slice(1);
+   if (command == "$say3") {
+   message.channel.send(args.join("  "))
+     }
+   });
+
+
+   client4.on('message', message => {
+   
+    let command = message.content.split(" ")[0];
+     let args = message.content.split(" ").slice(1);
+   if (command == "$say4") {
+   message.channel.send(args.join("  "))
+     }
+   });
+
 
 client.on('message', message => {
     if(message.content === '$مرتبك'){
